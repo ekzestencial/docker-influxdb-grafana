@@ -2,15 +2,17 @@
 # InfluxDB
 # + Grafana stack
 # + Telegraf
+# +spring boot app
+# + mongoDb
+# + elasticsearch
+# + nginx
+# + php-fpm
 
 Get the stack (only once):
 
 ```
-git clone https://github.com/nicolargo/docker-influxdb-grafana.git
-cd docker-influxdb-grafana
-docker pull grafana/grafana
-docker pull influxdb
-docker pull telegraf
+git clone https://github.com/ekzestencial/monitoring-system.git
+cd monitoring-system
 ```
 
 Run your stack:
@@ -36,12 +38,6 @@ docker-compose rm
 ```
 
 Update it:
-
-```
-git pull
-docker pull grafana/grafana
-docker pull influxdb
-docker pull telegraf
 ```
 
 If you want to run Telegraf, edit the telegraf.conf to yours needs and:
