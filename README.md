@@ -38,6 +38,12 @@ docker-compose rm
 ```
 
 Update it:
+
+```
+git pull
+docker pull grafana/grafana
+docker pull influxdb
+docker pull telegraf
 ```
 
 If you want to run Telegraf, edit the telegraf.conf to yours needs and:

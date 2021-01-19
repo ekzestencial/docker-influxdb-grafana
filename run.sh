@@ -1,8 +1,8 @@
 #!/bin/bash
 
-sudo mkdir -p /srv/docker/grafana/data
+sudo mkdir -p /var/docker/grafana/data
+sudo chown -R 1:1 /var/docker/grafana
 docker-compose up -d
-sudo chown -R 472:472 /srv/docker/grafana/data
 
 echo "Grafana: http://127.0.0.1:3000 - admin/admin"
 

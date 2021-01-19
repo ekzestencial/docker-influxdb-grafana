@@ -227,7 +227,7 @@ RUN if [ ${INSTALL_DRUSH} = true ]; then \
 
 USER root
 
-ARG INSTALL_WP_CLI=false
+ARG INSTALL_WP_CLI=true
 
 RUN if [ ${INSTALL_WP_CLI} = true ]; then \
     curl -fsSL -o /usr/local/bin/wp https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar | bash && \
