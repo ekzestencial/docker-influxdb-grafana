@@ -82,3 +82,71 @@
 2021/01/18 08:33:20 [warn] 10#10: conflicting server name "localhost" on [::]:80, ignored
 2021/01/18 17:13:10 [warn] 10#10: conflicting server name "localhost" on 0.0.0.0:80, ignored
 2021/01/18 17:13:10 [warn] 10#10: conflicting server name "localhost" on [::]:80, ignored
+2021/01/19 11:41:24 [warn] 9#9: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/19 11:41:24 [warn] 9#9: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 10:52:14 [warn] 14#14: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 10:52:14 [warn] 14#14: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:02:56 [warn] 10#10: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:02:56 [warn] 10#10: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:03:51 [warn] 10#10: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:03:51 [warn] 10#10: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:15:25 [warn] 9#9: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:15:25 [warn] 9#9: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:18:02 [warn] 10#10: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:18:02 [warn] 10#10: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:33:56 [warn] 9#9: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:33:56 [warn] 9#9: conflicting server name "localhost" on [::]:80, ignored
+2021/01/22 12:37:00 [warn] 9#9: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2021/01/22 12:37:00 [warn] 9#9: conflicting server name "localhost" on [::]:80, ignored
+2021/01/25 10:14:54 [emerg] 10#10: location "/.well-known/acme-challenge/" is outside location "/wordpress" in /etc/nginx/sites-available/default.conf:40
+2021/01/25 10:28:06 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:28:23 [emerg] 9#9: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:28:45 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:29:17 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:31:15 [emerg] 9#9: "proxy_cache" zone "STATIC" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:31:31 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:32:15 [emerg] 9#9: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:32:23 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:32:55 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:33:17 [emerg] 9#9: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:36:23 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:36:51 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:39:12 [emerg] 11#11: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:40:04 [emerg] 9#9: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:42:21 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:42:53 [emerg] 9#9: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:43:03 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:43:13 [emerg] 10#10: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:43:31 [emerg] 9#9: unexpected "}" in /etc/nginx/sites-available/default.conf:25
+2021/01/25 10:43:46 [emerg] 9#9: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:48:17 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 10:48:22 [emerg] 9#9: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 11:53:33 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 11:57:02 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:03:39 [emerg] 10#10: "proxy_cache" zone "nginx_cache" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:05:30 [emerg] 10#10: "proxy_cache" zone "nginx_cache" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:05:39 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:06:09 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:06:17 [emerg] 10#10: mkdir() "/path/to/cache" failed (2: No such file or directory)
+2021/01/25 12:07:48 [emerg] 10#10: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:08:55 [emerg] 9#9: "http" directive is not allowed here in /etc/nginx/sites-available/default.conf:1
+2021/01/25 12:09:33 [emerg] 11#11: "http" directive is not allowed here in /etc/nginx/sites-available/default.conf:1
+2021/01/25 12:09:45 [emerg] 10#10: "http" directive is not allowed here in /etc/nginx/sites-available/default.conf:1
+2021/01/25 12:12:39 [emerg] 9#9: "proxy_cache" zone "all" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:14:06 [emerg] 9#9: "proxy_cache" zone "cache" is unknown in /etc/nginx/nginx.conf:34
+2021/01/25 12:37:03 [emerg] 9#9: invalid keys zone size "keys_zone=cache:1G" in /etc/nginx/sites-available/default.conf:1
+2021/01/25 12:45:36 [emerg] 9#9: "proxy_pass" directive is not allowed here in /etc/nginx/sites-available/default.conf:20
+2021/01/25 13:02:02 [crit] 15#15: unlink() "/var/www/docker-influxdb-grafana/wordpress/cache/d8759ebeda7fc3e271466ee73fc45f72" failed (2: No such file or directory)
+2021/01/26 16:20:39 [emerg] 10#10: invalid number of arguments in "proxy_cache_min_uses" directive in /etc/nginx/sites-available/default.conf:23
+2021/01/26 16:32:18 [emerg] 10#10: invalid number of arguments in "proxy_cache_min_uses" directive in /etc/nginx/sites-available/default.conf:23
+2021/01/26 16:33:13 [emerg] 9#9: invalid number of arguments in "proxy_cache_min_uses" directive in /etc/nginx/sites-available/default.conf:23
+2021/01/26 16:36:32 [emerg] 10#10: invalid number of arguments in "proxy_cache_min_uses" directive in /etc/nginx/sites-available/default.conf:23
+2021/01/26 16:37:32 [emerg] 9#9: unknown directive "proxy_cache_purge" in /etc/nginx/sites-available/default.conf:32
+2021/01/26 16:39:22 [emerg] 9#9: unknown directive "proxy_cache_purge" in /etc/nginx/sites-available/default.conf:32
+2021/01/26 16:39:39 [emerg] 9#9: unknown directive "proxy_cache_purge" in /etc/nginx/sites-available/default.conf:32
+2021/01/26 16:49:56 [emerg] 10#10: invalid number of arguments in "proxy_pass" directive in /etc/nginx/sites-available/default.conf:34
+2021/01/26 16:50:26 [emerg] 9#9: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in /etc/nginx/sites-available/default.conf:34
+2021/01/26 16:51:11 [emerg] 10#10: unknown directive "proxy_cache_purge" in /etc/nginx/sites-available/default.conf:37
+2021/01/26 18:46:00 [emerg] 10#10: unknown directive "proxy_cache_purge" in /etc/nginx/sites-available/default.conf:37
+2021/01/26 18:57:32 [crit] 14#14: unlink() "/var/www/docker-influxdb-grafana/wordpress/cache/d8759ebeda7fc3e271466ee73fc45f72" failed (2: No such file or directory)
+2021/01/26 22:15:46 [crit] 15#15: unlink() "/var/www/docker-influxdb-grafana/wordpress/cache/d8759ebeda7fc3e271466ee73fc45f72" failed (2: No such file or directory)
